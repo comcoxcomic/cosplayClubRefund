@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0224BDD7206A1D160063AF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BDD6206A1D160063AF65 /* AppDelegate.m */; };
+		0224BDDA206A1D160063AF65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BDD9206A1D160063AF65 /* ViewController.m */; };
+		0224BDDD206A1D160063AF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224BDDB206A1D160063AF65 /* Main.storyboard */; };
+		0224BDDF206A1D160063AF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0224BDDE206A1D160063AF65 /* Assets.xcassets */; };
+		0224BDE2206A1D160063AF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224BDE0206A1D160063AF65 /* LaunchScreen.storyboard */; };
+		0224BDE5206A1D160063AF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BDE4206A1D160063AF65 /* main.m */; };
+		0224BDEF206A1D160063AF65 /* CosplayClubRefundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BDEE206A1D160063AF65 /* CosplayClubRefundTests.m */; };
+		0224BDFA206A1D160063AF65 /* CosplayClubRefundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0224BDF9206A1D160063AF65 /* CosplayClubRefundUITests.m */; };
+		DF6A1FF3B10D462F455B76A3 /* libPods-CosplayClubRefund.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847BED7BCFDC1D2DEE87137 /* libPods-CosplayClubRefund.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0224BDEB206A1D160063AF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0224BDCA206A1D160063AF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0224BDD1206A1D160063AF65;
+			remoteInfo = CosplayClubRefund;
+		};
+		0224BDF6206A1D160063AF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0224BDCA206A1D160063AF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0224BDD1206A1D160063AF65;
+			remoteInfo = CosplayClubRefund;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0224BDD2206A1D160063AF65 /* CosplayClubRefund.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosplayClubRefund.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0224BDD5206A1D160063AF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0224BDD6206A1D160063AF65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0224BDD8206A1D160063AF65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0224BDD9206A1D160063AF65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0224BDDC206A1D160063AF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0224BDDE206A1D160063AF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0224BDE1206A1D160063AF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0224BDE3206A1D160063AF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0224BDE4206A1D160063AF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0224BDEA206A1D160063AF65 /* CosplayClubRefundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosplayClubRefundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0224BDEE206A1D160063AF65 /* CosplayClubRefundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosplayClubRefundTests.m; sourceTree = "<group>"; };
+		0224BDF0206A1D160063AF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0224BDF5206A1D160063AF65 /* CosplayClubRefundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosplayClubRefundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0224BDF9206A1D160063AF65 /* CosplayClubRefundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosplayClubRefundUITests.m; sourceTree = "<group>"; };
+		0224BDFB206A1D160063AF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847BED7BCFDC1D2DEE87137 /* libPods-CosplayClubRefund.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CosplayClubRefund.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D73B4F911E3C3989086E43 /* Pods-CosplayClubRefund.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosplayClubRefund.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CosplayClubRefund/Pods-CosplayClubRefund.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E59C8AE901706D55EDB309 /* Pods-CosplayClubRefund.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosplayClubRefund.release.xcconfig"; path = "Pods/Target Support Files/Pods-CosplayClubRefund/Pods-CosplayClubRefund.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0224BDCF206A1D160063AF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6A1FF3B10D462F455B76A3 /* libPods-CosplayClubRefund.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDE7206A1D160063AF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDF2206A1D160063AF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0224BDC9206A1D160063AF65 = {
+			isa = PBXGroup;
+			children = (
+				0224BDD4206A1D160063AF65 /* CosplayClubRefund */,
+				0224BDED206A1D160063AF65 /* CosplayClubRefundTests */,
+				0224BDF8206A1D160063AF65 /* CosplayClubRefundUITests */,
+				0224BDD3206A1D160063AF65 /* Products */,
+				C085F0CBC34C93F24683CCD6 /* Pods */,
+				EF0F90A77DB1F9CB641A3C47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0224BDD3206A1D160063AF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDD2206A1D160063AF65 /* CosplayClubRefund.app */,
+				0224BDEA206A1D160063AF65 /* CosplayClubRefundTests.xctest */,
+				0224BDF5206A1D160063AF65 /* CosplayClubRefundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0224BDD4206A1D160063AF65 /* CosplayClubRefund */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDD5206A1D160063AF65 /* AppDelegate.h */,
+				0224BDD6206A1D160063AF65 /* AppDelegate.m */,
+				0224BDD8206A1D160063AF65 /* ViewController.h */,
+				0224BDD9206A1D160063AF65 /* ViewController.m */,
+				0224BDDB206A1D160063AF65 /* Main.storyboard */,
+				0224BDDE206A1D160063AF65 /* Assets.xcassets */,
+				0224BDE0206A1D160063AF65 /* LaunchScreen.storyboard */,
+				0224BDE3206A1D160063AF65 /* Info.plist */,
+				0224BDE4206A1D160063AF65 /* main.m */,
+			);
+			path = CosplayClubRefund;
+			sourceTree = "<group>";
+		};
+		0224BDED206A1D160063AF65 /* CosplayClubRefundTests */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDEE206A1D160063AF65 /* CosplayClubRefundTests.m */,
+				0224BDF0206A1D160063AF65 /* Info.plist */,
+			);
+			path = CosplayClubRefundTests;
+			sourceTree = "<group>";
+		};
+		0224BDF8206A1D160063AF65 /* CosplayClubRefundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDF9206A1D160063AF65 /* CosplayClubRefundUITests.m */,
+				0224BDFB206A1D160063AF65 /* Info.plist */,
+			);
+			path = CosplayClubRefundUITests;
+			sourceTree = "<group>";
+		};
+		C085F0CBC34C93F24683CCD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D73B4F911E3C3989086E43 /* Pods-CosplayClubRefund.debug.xcconfig */,
+				C0E59C8AE901706D55EDB309 /* Pods-CosplayClubRefund.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF0F90A77DB1F9CB641A3C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1847BED7BCFDC1D2DEE87137 /* libPods-CosplayClubRefund.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0224BDD1206A1D160063AF65 /* CosplayClubRefund */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0224BDFE206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefund" */;
+			buildPhases = (
+				52982999FC3D9FF53B6F35A1 /* [CP] Check Pods Manifest.lock */,
+				0224BDCE206A1D160063AF65 /* Sources */,
+				0224BDCF206A1D160063AF65 /* Frameworks */,
+				0224BDD0206A1D160063AF65 /* Resources */,
+				5BFE8CB81F7C99F283759F20 /* [CP] Embed Pods Frameworks */,
+				CD21C704421FB7483FC42851 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosplayClubRefund;
+			productName = CosplayClubRefund;
+			productReference = 0224BDD2206A1D160063AF65 /* CosplayClubRefund.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0224BDE9206A1D160063AF65 /* CosplayClubRefundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0224BE01206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefundTests" */;
+			buildPhases = (
+				0224BDE6206A1D160063AF65 /* Sources */,
+				0224BDE7206A1D160063AF65 /* Frameworks */,
+				0224BDE8206A1D160063AF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0224BDEC206A1D160063AF65 /* PBXTargetDependency */,
+			);
+			name = CosplayClubRefundTests;
+			productName = CosplayClubRefundTests;
+			productReference = 0224BDEA206A1D160063AF65 /* CosplayClubRefundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0224BDF4206A1D160063AF65 /* CosplayClubRefundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0224BE04206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefundUITests" */;
+			buildPhases = (
+				0224BDF1206A1D160063AF65 /* Sources */,
+				0224BDF2206A1D160063AF65 /* Frameworks */,
+				0224BDF3206A1D160063AF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0224BDF7206A1D160063AF65 /* PBXTargetDependency */,
+			);
+			name = CosplayClubRefundUITests;
+			productName = CosplayClubRefundUITests;
+			productReference = 0224BDF5206A1D160063AF65 /* CosplayClubRefundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0224BDCA206A1D160063AF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = moxcomic;
+				TargetAttributes = {
+					0224BDD1206A1D160063AF65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0224BDE9206A1D160063AF65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0224BDD1206A1D160063AF65;
+					};
+					0224BDF4206A1D160063AF65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0224BDD1206A1D160063AF65;
+					};
+				};
+			};
+			buildConfigurationList = 0224BDCD206A1D160063AF65 /* Build configuration list for PBXProject "CosplayClubRefund" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0224BDC9206A1D160063AF65;
+			productRefGroup = 0224BDD3206A1D160063AF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0224BDD1206A1D160063AF65 /* CosplayClubRefund */,
+				0224BDE9206A1D160063AF65 /* CosplayClubRefundTests */,
+				0224BDF4206A1D160063AF65 /* CosplayClubRefundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0224BDD0206A1D160063AF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0224BDE2206A1D160063AF65 /* LaunchScreen.storyboard in Resources */,
+				0224BDDF206A1D160063AF65 /* Assets.xcassets in Resources */,
+				0224BDDD206A1D160063AF65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDE8206A1D160063AF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDF3206A1D160063AF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52982999FC3D9FF53B6F35A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosplayClubRefund-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFE8CB81F7C99F283759F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosplayClubRefund/Pods-CosplayClubRefund-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD21C704421FB7483FC42851 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CosplayClubRefund/Pods-CosplayClubRefund-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FFToast/FFToast.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFToast.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CosplayClubRefund/Pods-CosplayClubRefund-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0224BDCE206A1D160063AF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0224BDDA206A1D160063AF65 /* ViewController.m in Sources */,
+				0224BDE5206A1D160063AF65 /* main.m in Sources */,
+				0224BDD7206A1D160063AF65 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDE6206A1D160063AF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0224BDEF206A1D160063AF65 /* CosplayClubRefundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0224BDF1206A1D160063AF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0224BDFA206A1D160063AF65 /* CosplayClubRefundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0224BDEC206A1D160063AF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0224BDD1206A1D160063AF65 /* CosplayClubRefund */;
+			targetProxy = 0224BDEB206A1D160063AF65 /* PBXContainerItemProxy */;
+		};
+		0224BDF7206A1D160063AF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0224BDD1206A1D160063AF65 /* CosplayClubRefund */;
+			targetProxy = 0224BDF6206A1D160063AF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0224BDDB206A1D160063AF65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0224BDDC206A1D160063AF65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0224BDE0206A1D160063AF65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0224BDE1206A1D160063AF65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0224BDFC206A1D160063AF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0224BDFD206A1D160063AF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0224BDFF206A1D160063AF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D73B4F911E3C3989086E43 /* Pods-CosplayClubRefund.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefund/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CSMRefund;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0224BE00206A1D160063AF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E59C8AE901706D55EDB309 /* Pods-CosplayClubRefund.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefund/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CSMRefund;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0224BE02206A1D160063AF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CosplayClubRefundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosplayClubRefund.app/CosplayClubRefund";
+			};
+			name = Debug;
+		};
+		0224BE03206A1D160063AF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CosplayClubRefundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosplayClubRefund.app/CosplayClubRefund";
+			};
+			name = Release;
+		};
+		0224BE05206A1D160063AF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CosplayClubRefundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CosplayClubRefund;
+			};
+			name = Debug;
+		};
+		0224BE06206A1D160063AF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = CosplayClubRefundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.CosplayClubRefundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CosplayClubRefund;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0224BDCD206A1D160063AF65 /* Build configuration list for PBXProject "CosplayClubRefund" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224BDFC206A1D160063AF65 /* Debug */,
+				0224BDFD206A1D160063AF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0224BDFE206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefund" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224BDFF206A1D160063AF65 /* Debug */,
+				0224BE00206A1D160063AF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0224BE01206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224BE02206A1D160063AF65 /* Debug */,
+				0224BE03206A1D160063AF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0224BE04206A1D160063AF65 /* Build configuration list for PBXNativeTarget "CosplayClubRefundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224BE05206A1D160063AF65 /* Debug */,
+				0224BE06206A1D160063AF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0224BDCA206A1D160063AF65 /* Project object */;
+}
