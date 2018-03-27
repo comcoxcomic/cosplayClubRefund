@@ -21,6 +21,11 @@
 }
 
 - (IBAction)addAction:(id)sender {
+    
+    /*
+     * 有时页面需要根据条件来跳转时  就要用到代码跳转
+     */
+    
     //用代码方式的跳转下一级
     //[self.navigationController showViewController:[[UIViewController alloc]init] sender:nil];
     
