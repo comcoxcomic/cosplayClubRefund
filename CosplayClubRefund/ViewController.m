@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)addAction:(id)sender;
 
 @end
 
@@ -19,11 +20,17 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)addAction:(id)sender {
+    //用代码方式的跳转下一级
+    //[self.navigationController showViewController:[[UIViewController alloc]init] sender:nil];
+    
+    //返回上级界面
+    //[self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
