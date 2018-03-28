@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 - (IBAction)addAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
 
@@ -17,8 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    View.layer.borderColor = [UIColor blackColor].CGColor;
-    View.layer.borderWidth = 2;
+    self.imgView.layer.borderColor = [UIColor blackColor].CGColor;
+    self.imgView.layer.borderWidth = 2;
 }
 
 - (IBAction)addAction:(id)sender {
