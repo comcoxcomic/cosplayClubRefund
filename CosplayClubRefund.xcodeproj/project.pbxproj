@@ -108,11 +108,10 @@
 		0224BDD4206A1D160063AF65 /* CosplayClubRefund */ = {
 			isa = PBXGroup;
 			children = (
-				0224BDD5206A1D160063AF65 /* AppDelegate.h */,
-				0224BDD6206A1D160063AF65 /* AppDelegate.m */,
-				0224BDD8206A1D160063AF65 /* ViewController.h */,
-				0224BDD9206A1D160063AF65 /* ViewController.m */,
-				0224BDDB206A1D160063AF65 /* Main.storyboard */,
+				028B8410206A2EE300873A58 /* Others */,
+				028B840F206A2ED800873A58 /* Controllers */,
+				028B840E206A2ED200873A58 /* Views */,
+				028B840D206A2EC600873A58 /* Models */,
 				0224BDDE206A1D160063AF65 /* Assets.xcassets */,
 				0224BDE0206A1D160063AF65 /* LaunchScreen.storyboard */,
 				0224BDE3206A1D160063AF65 /* Info.plist */,
@@ -137,6 +136,39 @@
 				0224BDFB206A1D160063AF65 /* Info.plist */,
 			);
 			path = CosplayClubRefundUITests;
+			sourceTree = "<group>";
+		};
+		028B840D206A2EC600873A58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		028B840E206A2ED200873A58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDDB206A1D160063AF65 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		028B840F206A2ED800873A58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDD8206A1D160063AF65 /* ViewController.h */,
+				0224BDD9206A1D160063AF65 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		028B8410206A2EE300873A58 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0224BDD5206A1D160063AF65 /* AppDelegate.h */,
+				0224BDD6206A1D160063AF65 /* AppDelegate.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		C085F0CBC34C93F24683CCD6 /* Pods */ = {

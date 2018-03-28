@@ -17,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    View.layer.borderColor = [UIColor blackColor].CGColor;
+    View.layer.borderWidth = 2;
 }
 
 - (IBAction)addAction:(id)sender {
